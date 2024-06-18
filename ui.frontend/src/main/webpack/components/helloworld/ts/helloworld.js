@@ -1,6 +1,30 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
+// let jsHelloWorld = () => {
+//     const jsString = "Hello World";
+//     console.log(jsString);
+// };
+// export default jsHelloWorld();
 
-// Render your React component instead
-const root = createRoot(document.getElementById("react-title"));
-root.render(<h1>Hello, world</h1>);
+// import { ThemeProvider } from '@zendeskgarden/react-theming';
+// import {
+//     greenhouse,
+//     greenhouse2,
+// } from "@zendesk/greenhouse";
+
+import React from "react";
+import ReactDOM from 'react-dom';
+// import { Hero, ActionFooter, LinkGroup, Button } from '@zendesk/greenhouse';
+
+// const primaryThemes = {
+//     greenhouse: [greenhouse, greenhouse2],
+// };
+ 
+// const ver = 1;
+
+const rootNode = document.getElementById('react-title');
+ReactDOM.render(
+    <React.StrictMode>
+    <h1>Hello World Testing React</h1>
+    </React.StrictMode>,
+    rootNode
+    
+);

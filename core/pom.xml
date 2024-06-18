@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
-        <version>3.2.1-SNAPSHOT</version>
+        <version>3.2.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aem-guides-wknd.core</artifactId>
@@ -140,12 +140,6 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.models.impl</artifactId>
             <version>1.4.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -329,12 +323,6 @@ Import-Package: javax.annotation;version=0.0.0,*
                     <artifactId>cq-wcm-taglib</artifactId>
                     <version>5.7.4</version>
                     <scope>provided</scope>
-                </dependency>
-                <dependency>
-                    <groupId>org.apache.commons</groupId>
-                    <artifactId>commons-collections4</artifactId>
-                    <version>4.4</version>
-                    <scope>test</scope>
                 </dependency>
             </dependencies>
         </profile>

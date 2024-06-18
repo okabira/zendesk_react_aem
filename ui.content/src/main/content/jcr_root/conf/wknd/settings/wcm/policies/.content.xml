@@ -27,11 +27,9 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"
                         mergeList="{Boolean}true"/>
@@ -47,11 +45,9 @@
                     backgroundImageEnabled="true"
                     components="[group:WKND.Content]">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -104,11 +100,9 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="[/apps/wknd/components/button,/apps/wknd/components/download,/apps/wknd/components/image,/apps/wknd/components/list,/apps/wknd/components/separator,/apps/wknd/components/sharing,/apps/wknd/components/text,/apps/wknd/components/title]">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_178507300498125>
@@ -123,14 +117,7 @@
                     backgroundColorSwatchesOnly="true"
                     components="[/libs/cq/experience-fragments/editor/components/buildingblock,group:WKND.Content,group:WKND.Form,group:WKND.Structure]"
                     layoutDisabled="false">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
                             <mapping_1568417184586
@@ -201,14 +188,7 @@
                         jcr:title="WKND Site Form"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/apps/wknd/components/form/button,/apps/wknd/components/form/hidden,/apps/wknd/components/form/options,/apps/wknd/components/form/text]">
-                        <jcr:content
-                            cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                            cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                            cq:lastReplicatedBy="admin"
-                            cq:lastReplicationAction="Activate"
-                            cq:lastReplicationAction_preview="Activate"
-                            jcr:mixinTypes="[cq:ReplicationStatus]"
-                            jcr:primaryType="nt:unstructured"/>
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
             </form>
@@ -223,11 +203,9 @@
                     linkDisabled="false"
                     type="h1">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -285,11 +263,9 @@
                     jcr:title="WKND Text - Kitchen Sink"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <rtePlugins jcr:primaryType="nt:unstructured">
@@ -462,11 +438,9 @@
                     showDescription="false"
                     showModificationDate="false">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -534,11 +508,9 @@
                         </crop>
                     </plugins>
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_1568423036289>
@@ -557,14 +529,7 @@
                     jpegQuality="{Long}75"
                     titleValueFromDAM="true"
                     uuidDisabled="true">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                     <plugins jcr:primaryType="nt:unstructured">
                         <crop
                             jcr:primaryType="nt:unstructured"
@@ -624,11 +589,9 @@
                     showHidden="false"
                     startLevel="4">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -657,11 +620,9 @@
                     jcr:title="WKND Teaser"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -730,11 +691,9 @@
                     components="[/apps/wknd/components/experiencefragment,/apps/wknd/components/image,/apps/wknd/components/teaser]"
                     delay="5000">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -763,14 +722,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Content Fragment"
                     sling:resourceType="wcm/core/components/policy/policy">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0 jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
@@ -797,11 +749,9 @@
                     jcr:title="WKND Button"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -848,11 +798,9 @@
                     jcr:title="WKND Experience Fragment - Site"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -882,11 +830,9 @@
                     jcr:title="WKND Experience Fragment - Content"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -914,11 +860,9 @@
                     components="[/apps/wknd/components/button,/apps/wknd/components/image,/apps/wknd/components/text,/apps/wknd/components/title]"
                     headingElement="h3">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_1571070092603>
@@ -931,11 +875,9 @@
                     jcr:title="WKND Separator"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -994,14 +936,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     navigationRoot="/content/wknd"
                     structureDepth="1">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0 jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
@@ -1032,11 +967,9 @@
                     skipNavigationRoot="true"
                     structureDepth="1">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_1555431038157>
@@ -1052,11 +985,9 @@
                     skipNavigationRoot="true"
                     structureDepth="1">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_4825943207134>
@@ -1070,14 +1001,7 @@
                     navigationRoot="/content/wknd"
                     skipNavigationRoot="true"
                     structureDepth="1">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0
                             cq:styleGroupLabel="Template Styles"
@@ -1109,11 +1033,9 @@
                     searchRoot="/content/wknd"
                     searchTermMinimumLength="3">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -1143,11 +1065,9 @@
                     clientlibs="[wknd.site,wknd.base]"
                     clientlibsJsHead="wknd.dependencies">
                     <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                         cq:lastReplicatedBy="admin"
                         cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
                         jcr:mixinTypes="[cq:ReplicationStatus]"
                         jcr:primaryType="nt:unstructured"/>
                 </policy_1570140199406>
@@ -1160,14 +1080,7 @@
                     jcr:title="Experience Fragment Web"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[wknd.site,wknd.base]">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1572461714642>
             </xfpage>
             <embed jcr:primaryType="nt:unstructured">
@@ -1181,14 +1094,7 @@
                     embeddablesDisabled="false"
                     htmlDisabled="false"
                     urlDisabled="false">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594170470008>
             </embed>
             <tabs jcr:primaryType="nt:unstructured">
@@ -1199,14 +1105,7 @@
                     jcr:title="WKND Tabs"
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="group:WKND.Content">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_preview="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594238204926>
             </tabs>
         </components>
@@ -1222,14 +1121,7 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="WKND Building Block"
                             sling:resourceType="wcm/core/components/policy/policy">
-                            <jcr:content
-                                cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                                cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                                cq:lastReplicatedBy="admin"
-                                cq:lastReplicationAction="Activate"
-                                cq:lastReplicationAction_preview="Activate"
-                                jcr:mixinTypes="[cq:ReplicationStatus]"
-                                jcr:primaryType="nt:unstructured"/>
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
                                 <item0 jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
@@ -1258,14 +1150,7 @@
                         jcr:title="WKND Social Media Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/cq/experience-fragments/editor/components/buildingblock,/apps/wknd/components/contentfragment,/apps/wknd/components/image,/apps/wknd/components/text]">
-                        <jcr:content
-                            cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
-                            cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
-                            cq:lastReplicatedBy="admin"
-                            cq:lastReplicationAction="Activate"
-                            cq:lastReplicationAction_preview="Activate"
-                            jcr:mixinTypes="[cq:ReplicationStatus]"
-                            jcr:primaryType="nt:unstructured"/>
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
                     </social-media>
                 </responsivegrid>
             </components>
