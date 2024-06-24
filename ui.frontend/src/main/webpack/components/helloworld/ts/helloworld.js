@@ -1,18 +1,6 @@
-// let jsHelloWorld = () => {
-//     const jsString = "Hello World";
-//     console.log(jsString);
-// };
-// export default jsHelloWorld();
-
-// import { ThemeProvider } from '@zendeskgarden/react-theming';
-// import {
-//     greenhouse,
-//     greenhouse2,
-// } from "@zendesk/greenhouse";
-
 import React from "react";
 import ReactDOM from 'react-dom';
-// import { Hero, ActionFooter, LinkGroup, Button } from '@zendesk/greenhouse';
+import { Hero, Relationframe, Button, Heading } from '@zendesk/greenhouse';
 
 // const primaryThemes = {
 //     greenhouse: [greenhouse, greenhouse2],
@@ -20,11 +8,21 @@ import ReactDOM from 'react-dom';
  
 // const ver = 1;
 
-const rootNode = document.getElementById('react-title');
-ReactDOM.render(
-    <React.StrictMode>
-    <h1>Hello World Testing React</h1>
-    </React.StrictMode>,
-    rootNode
-    
-);
+const HelloWorld = () => {
+   return  <Hero
+            bgColor="baby_yoda_light"
+            contentSide={
+            <Relationframe shape="circle-quarter">
+                <img alt="flowers" src="https://web-assets.zendesk.com/images/p-greenhouse/flowery.jpg"/>
+            </Relationframe>}
+            contentUnderText={<Button href="#">Button CTA</Button>}
+            hasReverseMobileColumns
+            heading={<Heading override="h2" variant="h1">Build smarter, reach farther</Heading>}
+            supertitle="Zendesk for small business"
+            text="Your small and mighty team works hard. 
+            Give them the gift of efficiency with Zendesk. 
+            It’s powerful yet easy-to-use, and it’s designed to help your team work better together."
+        />
+}
+
+export default HelloWorld;

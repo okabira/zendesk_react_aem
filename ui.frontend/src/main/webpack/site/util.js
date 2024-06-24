@@ -626,3 +626,12 @@ import jQuery from "jquery";
     };
 
 })(jQuery);
+
+export default function findValueByPrefix(object, prefix) {
+  for (var property in object) {
+    if (object.hasOwnProperty(property) && 
+        property.toString().startsWith(prefix)) {
+        return object[property];
+    }
+  }
+}
