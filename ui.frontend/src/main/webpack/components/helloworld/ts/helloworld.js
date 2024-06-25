@@ -8,7 +8,8 @@ import { Hero, Relationframe, Button, Heading } from '@zendesk/greenhouse';
  
 // const ver = 1;
 
-const HelloWorld = () => {
+const HelloWorld = (props) => {
+    console.log("Props from Hello World component", props);
    return  <Hero
             bgColor="baby_yoda_light"
             contentSide={

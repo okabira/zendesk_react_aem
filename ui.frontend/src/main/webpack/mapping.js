@@ -4,7 +4,7 @@ import React from "react";
 // List of Component Mapping
 
 const Mapper = {
-    'wknd/components/teaser': <HelloWorld />
+    'wknd/components/helloworld': HelloWorld
 }
 
 export default Mapper;
