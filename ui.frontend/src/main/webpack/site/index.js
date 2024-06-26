@@ -6,7 +6,7 @@ import {
 } from "@zendesk/greenhouse";
 
 import App from '../components/App.js';
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from 'react-dom';
 
 const primaryThemes = {
@@ -32,6 +32,46 @@ ModelManager.initialize().then((pageModel) => {
         
     );
 });
+
+
+
+// const COMPONENTS = {
+//     "demo": lazy(() =>
+//         import(/* webpackPrefetch: true, webpackChunkName: "demo" */ "../components/Demo.jsx")
+//     ),
+// }
+
+// class ReactComponent extends HTMLElement {
+    
+//     constructor() {
+//         super();
+//         console.log("Inside ReactComponent");
+//     }
+
+//     connectedCallback() {
+//         console.log("Inside connectedcallback");
+//         // const props = this.dataset;
+//         // const Component = COMPONENTS[props.component];
+//         ModelManager.initialize().then((pageModel) => {
+//             createRoot(this).render(
+//                 <Suspense fallback={null}>
+//                     <ThemeProvider theme={primaryThemes.greenhouse[ver]}>
+//                         <React.StrictMode>
+//                             <App
+//                                 cqChildren={pageModel[Constants.CHILDREN_PROP]}
+//                                 cqItems={pageModel[Constants.ITEMS_PROP]}
+//                                 cqItemsOrder={pageModel[Constants.ITEMS_ORDER_PROP]}
+//                                 cqPath={pageModel[Constants.PATH_PROP]}
+//                             />
+//                         </React.StrictMode>
+//                     </ThemeProvider>
+//                 </Suspense>
+//             );
+//         });
+//     }
+// }
+
+// customElements.define('react-component', ReactComponent);
 
 // // Loading a specific portion of model
 // ModelManager.getData("/content/site/page/jcr:").then((data) => console.log(data));
