@@ -3,10 +3,8 @@ import Mapper  from '../mapping.js';
 
 
 const getComponentProperties = (components) => {
-    for (key in components) {
-        if (!key.startsWith(':')) continue;
-        console.log(key, components[key]);
-    }
+    const { [':type']: _, ...componentProperties } = components;
+    return componentProperties;
 }
 const renderComponent = (props) => {
     let pageComponents = [];
@@ -14,21 +12,20 @@ const renderComponent = (props) => {
     for (const component in listOfComponenetData) {
         let componentName = listOfComponenetData[component][":type"];
         let componentProperties = getComponentProperties(listOfComponenetData[component]);
-        console.log("Hello", listOfComponenetData[component]);
-         
         if(Mapper.hasOwnProperty(componentName)) {
-            pageComponents.push(Mapper[componentName]);
+            pageComponents.push({ "componentName" : Mapper[componentName], "componentProps": componentProperties });
         }
     }
-
     return pageComponents;
 }
 
 const App = (props) => {
     return (
       <div>
-        {renderComponent(props).map((Item => {
-            return <Item />;
+        {renderComponent(props).map((item => {
+            return <>
+            <item.componentName {...item.componentProps}/>
+            </>
         }))}
       </div>
     );
