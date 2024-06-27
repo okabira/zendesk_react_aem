@@ -1,9 +1,8 @@
 import React from "react";
-import { Button } from '@zendesk/greenhouse';
+import { WhichButton } from '@zendesk/greenhouse';
 
 const CustomButton = (props) => {
-  console.log("Props", props);
-   return <Button href="#">{props.title}</Button>;
+   return <WhichButton href="#">{props.text}</WhichButton>;
 }
 
 export default CustomButton;

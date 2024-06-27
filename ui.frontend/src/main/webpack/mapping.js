@@ -5,7 +5,7 @@ import Teaser from './components/teaser/ts/teaser';
 const Mapper = {
     'wknd/components/helloworld': HelloWorld,
     'wknd/components/teaser': Teaser,
-    'nt:unstructured': CustomButton,
+    'wknd/components/button': CustomButton,
 }
 
 export default Mapper;
