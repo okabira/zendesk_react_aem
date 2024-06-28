@@ -8,6 +8,7 @@ const Mapper = {
     'wknd/components/teaser': Teaser,
     'wknd/components/hero': Hero,
     'nt:unstructured': CustomButton,
+    //title mapping 
 }
 
 export default Mapper;
