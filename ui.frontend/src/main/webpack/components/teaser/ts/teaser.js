@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom';
-import { Hero, Relationframe, Button, Heading } from '@zendesk/greenhouse';
+import { Hero, Relationframe, Heading } from '@zendesk/greenhouse';
 import Mapper  from '../../../mapping.js';
 
 function strip(html){
@@ -37,7 +36,7 @@ const Teaser = (props) => {
                 bgColor="baby_yoda_light"
                 contentSide={
                 <Relationframe shape="circle-quarter">
-                    <img alt="flowers" src={props.imagePath }/>
+                    <img alt="flowers" src={props.imagePath }/> // props.image.image
                 </Relationframe>}
                 contentUnderText={renderComponent(props).map((item => {
                     return <>
