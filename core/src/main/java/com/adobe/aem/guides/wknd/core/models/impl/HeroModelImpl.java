@@ -22,6 +22,7 @@ import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.factory.ModelFactory;
 
 import javax.annotation.PostConstruct;
+import javax.inject.Named;
 
 
 @Model(
@@ -57,6 +58,10 @@ public class HeroModelImpl implements HeroModel {
 
     @ChildResource
     private Resource text;
+
+    @ChildResource
+    @Named("additional-content")
+    private Resource additionalContent;
 
     @PostConstruct
     public void init() {
@@ -98,5 +103,13 @@ public class HeroModelImpl implements HeroModel {
     @JsonProperty(value = ":type")
     public String getExportedType() {
         return HERO_RESOURCE_TYPE;
+    }
+
+    public ComponentExporter getAdditionalContent() {
+        if (this.additionalContent != null) {
+            return modelFactory.getModelFromWrappedRequest(request, additionalContent, ComponentExporter.class);
+        } else  {
+            return null;
+        }
     }
 }
