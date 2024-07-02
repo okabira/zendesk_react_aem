@@ -7,7 +7,6 @@ function strip(html){
  }
 
 const Hero = (props) => {
-    console.log("Inside Hero", props);
    return  <Base
                 columnWeight="contentSide"
                 contentSide={<Relationframe shape="square">
@@ -17,6 +16,5 @@ const Hero = (props) => {
                 heading={<Heading variant={props.title?.type}>{props.title?.text}</Heading>}
                 text={<Text>{strip(`${props.text?.text}`)}</Text>}
             />
-return <h1>hi</h1>
 }
 export default Hero;

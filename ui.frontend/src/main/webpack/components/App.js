@@ -7,10 +7,8 @@ const getComponentProperties = (components) => {
     return componentProperties;
 }
 const renderComponent = (props) => {
-  console.log("Inside render")
     let pageComponents = [];
     let listOfComponenetData = props.cqItems.root[':items']["container"][":items"]["container"][":items"]["hero"];
-    console.log(listOfComponenetData);
     // for (const component in listOfComponenetData) {
         let componentName = listOfComponenetData[":type"];
         let componentProperties = getComponentProperties(listOfComponenetData);
@@ -18,12 +16,10 @@ const renderComponent = (props) => {
             pageComponents.push({ "componentName" : Mapper[componentName], "componentProps": componentProperties });
         }
    // }
-    console.log("PageComponenets", pageComponents);
     return pageComponents;
 }
 
 const App = (props) => {
-  console.log("Hello", props);
     return (
       <div>
         {renderComponent(props).map((item => {

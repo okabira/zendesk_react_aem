@@ -13,14 +13,12 @@ const getComponentProperties = (components) => {
 }
 
 const renderComponent = (props) => {
-    console.log("Inside render component");
     
     let pageChildComponents = [];
     //let childComponents = props[":items"]?.[":items"] || props["actions"];
     let childComponents = props["actions"];
         for (let child in childComponents) {
             let childComponentName = childComponents[child][':type'];
-            console.log("Child ComponentName new", childComponentName);
             let childComponentsProperties = getComponentProperties(childComponents[child]);
             if(Mapper.hasOwnProperty(childComponentName)) {
                 pageChildComponents.push({"childComponentName": Mapper[childComponentName], "childComponentProps": childComponentsProperties });

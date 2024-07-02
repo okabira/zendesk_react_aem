@@ -16,7 +16,6 @@ const primaryThemes = {
 const ver = 1;
 
 ModelManager.initialize().then((pageModel) => {
-    console.log("PageModel", pageModel);
     const rootNode = document.getElementById('react-title');
     ReactDOM.render(
         <ThemeProvider theme={primaryThemes.greenhouse[ver]}>
