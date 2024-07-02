@@ -1,8 +1,15 @@
 <div class="cmp-hero" data-sly-test="${wcmmode.edit}">
-    <div data-sly-resource="${'title' @ resourceType='wknd/components/title'}"></div>
-    <div data-sly-resource="${'text' @ resourceType='wknd/components/text'}"></div>
-    <div data-sly-resource="${'button' @ resourceType='wknd/components/button'}"></div>
-    <div data-sly-resource="${'image' @ resourceType='wknd/components/image'}"></div>
+    <div class="cmp-hero-section">
+        <div class="cmp-hero-section-left">
+            <div data-sly-resource="${'title' @ resourceType='wknd/components/title'}"></div>
+            <div data-sly-resource="${'text' @ resourceType='wknd/components/text'}"></div>
+            <div data-sly-resource="${'button' @ resourceType='wknd/components/button'}"></div>
+        </div>
+        <div class="cmp-hero-section-right">
+            <div data-sly-resource="${'image' @ resourceType='wknd/components/image'}"></div>
+        </div>
+    </div>
+    
     <div data-sly-resource="${'additional-content' @ resourceType='wknd/components/container'}"></div>
 </div>
 <div data-sly-test="${!wcmmode.edit}" id="react-title"></div>
