@@ -7,15 +7,16 @@ function strip(html){
  }
 
 const Hero = (props) => {
-    console.log("Inside Hero");
+    console.log("Inside Hero", props);
    return  <Base
                 columnWeight="contentSide"
                 contentSide={<Relationframe shape="square">
                     <img alt="flowers" src={props.image.src}/></Relationframe>}
-                contentUnderText={<LinkGroup><Button>{props.button.text}</Button></LinkGroup>}
+                contentUnderText={<LinkGroup><Button>{props.button?.text}</Button></LinkGroup>}
                 hasReverseMobileColumns
-                heading={<Heading variant={props.title.type}>{props.title.text}</Heading>}
-                text={<Text>{strip(`${props.text.text}`)}</Text>}
+                heading={<Heading variant={props.title?.type}>{props.title?.text}</Heading>}
+                text={<Text>{strip(`${props.text?.text}`)}</Text>}
             />
+return <h1>hi</h1>
 }
 export default Hero;
