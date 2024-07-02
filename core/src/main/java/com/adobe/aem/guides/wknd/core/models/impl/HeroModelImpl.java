@@ -9,7 +9,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.adobe.aem.guides.wknd.core.models.HeroModel;
 import com.adobe.aem.guides.wknd.core.models.TitleModel;
-import com.adobe.aem.guides.wknd.core.models.ZendeskButton;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -76,9 +75,9 @@ public class HeroModelImpl implements HeroModel {
         }
     }
 
-    public ZendeskButton getButton() {
+    public ComponentExporter getButton() {
         if (this.button != null) {
-            return modelFactory.getModelFromWrappedRequest(request, this.button, ZendeskButton.class);
+            return modelFactory.getModelFromWrappedRequest(request, this.button, ComponentExporter.class);
         } else  {
             return null;
         }

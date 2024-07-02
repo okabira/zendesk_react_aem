@@ -7,6 +7,7 @@ function strip(html){
  }
 
 const Hero = (props) => {
+    
    return  <Base
                 columnWeight="contentSide"
                 contentSide={<Relationframe shape="square">
@@ -15,6 +16,8 @@ const Hero = (props) => {
                 hasReverseMobileColumns
                 heading={<Heading variant={props.title?.type}>{props.title?.text}</Heading>}
                 text={<Text>{strip(`${props.text?.text}`)}</Text>}
-            />
+   >
+       {props.children}
+            </Base>
 }
 export default Hero;

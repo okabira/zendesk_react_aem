@@ -7,6 +7,7 @@ const Mapper = {
     'wknd/components/helloworld': HelloWorld,
     'wknd/components/teaser': Teaser,
     'wknd/components/hero': Hero,
+    'wknd/components/button': CustomButton,
     'nt:unstructured': CustomButton,
     //title mapping 
 }
