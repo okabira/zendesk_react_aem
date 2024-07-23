@@ -5,11 +5,13 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.Text;
+import com.adobe.cq.wcm.style.ComponentStyleInfo;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.adobe.aem.guides.wknd.core.models.HeroModel;
 import com.adobe.aem.guides.wknd.core.models.TitleModel;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -22,6 +24,7 @@ import org.apache.sling.models.factory.ModelFactory;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Named;
+import java.util.Optional;
 
 
 @Model(
@@ -65,6 +68,14 @@ public class HeroModelImpl implements HeroModel {
     @PostConstruct
     public void init() {
         System.out.println("HeroModelImpl init");
+    }
+
+    public String getAppliedCssClasses() {
+
+        return Optional.ofNullable(request.getResource().adaptTo(ComponentStyleInfo.class))
+                .map(ComponentStyleInfo::getAppliedCssClasses)
+                .filter(StringUtils::isNotBlank)
+                .orElse(null);		// Returning null so sling model exporters don't return anything for this property if not configured
     }
 
     public TitleModel getTitle() {

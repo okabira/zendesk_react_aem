@@ -1108,6 +1108,33 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594238204926>
             </tabs>
+            <hero jcr:primaryType="nt:unstructured">
+                <policy_1721733101171
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hero Component Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="group:WKND.Content">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Style"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-hero__teaser"
+                                    cq:styleId="1721733121719"
+                                    cq:styleLabel="Hero Section"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-hero__promo"
+                                    cq:styleId="1721733177020"
+                                    cq:styleLabel="Promo Section"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1721733101171>
+            </hero>
         </components>
     </wknd>
     <cq jcr:primaryType="nt:unstructured">
